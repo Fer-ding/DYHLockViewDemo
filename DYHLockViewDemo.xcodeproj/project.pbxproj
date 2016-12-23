@@ -10,9 +10,12 @@
 		58C36D351E0CF6FF00B833FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D341E0CF6FF00B833FB /* main.m */; };
 		58C36D381E0CF6FF00B833FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D371E0CF6FF00B833FB /* AppDelegate.m */; };
 		58C36D3B1E0CF6FF00B833FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D3A1E0CF6FF00B833FB /* ViewController.m */; };
-		58C36D3E1E0CF6FF00B833FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C36D3C1E0CF6FF00B833FB /* Main.storyboard */; };
 		58C36D401E0CF70000B833FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C36D3F1E0CF70000B833FB /* Assets.xcassets */; };
 		58C36D431E0CF70000B833FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C36D411E0CF70000B833FB /* LaunchScreen.storyboard */; };
+		58C36D4D1E0CF73200B833FB /* DYHLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D4C1E0CF73200B833FB /* DYHLockView.m */; };
+		58C36D501E0CF74700B833FB /* DYHLockNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D4F1E0CF74700B833FB /* DYHLockNodeView.m */; };
+		58C36D551E0CF8BE00B833FB /* DYHCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D521E0CF8BE00B833FB /* DYHCheckController.m */; };
+		58C36D561E0CF8BE00B833FB /* DYHInitPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D541E0CF8BE00B833FB /* DYHInitPasswordController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,17 @@
 		58C36D371E0CF6FF00B833FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58C36D391E0CF6FF00B833FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58C36D3A1E0CF6FF00B833FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		58C36D3D1E0CF6FF00B833FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C36D3F1E0CF70000B833FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C36D421E0CF70000B833FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C36D441E0CF70000B833FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C36D4B1E0CF73200B833FB /* DYHLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHLockView.h; sourceTree = "<group>"; };
+		58C36D4C1E0CF73200B833FB /* DYHLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHLockView.m; sourceTree = "<group>"; };
+		58C36D4E1E0CF74700B833FB /* DYHLockNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHLockNodeView.h; sourceTree = "<group>"; };
+		58C36D4F1E0CF74700B833FB /* DYHLockNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHLockNodeView.m; sourceTree = "<group>"; };
+		58C36D511E0CF8BE00B833FB /* DYHCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHCheckController.h; sourceTree = "<group>"; };
+		58C36D521E0CF8BE00B833FB /* DYHCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHCheckController.m; sourceTree = "<group>"; };
+		58C36D531E0CF8BE00B833FB /* DYHInitPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHInitPasswordController.h; sourceTree = "<group>"; };
+		58C36D541E0CF8BE00B833FB /* DYHInitPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHInitPasswordController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 		58C36D271E0CF6FF00B833FB = {
 			isa = PBXGroup;
 			children = (
+				58C36D4A1E0CF71E00B833FB /* DYHLockView */,
 				58C36D321E0CF6FF00B833FB /* DYHLockViewDemo */,
 				58C36D311E0CF6FF00B833FB /* Products */,
 			);
@@ -58,11 +69,14 @@
 		58C36D321E0CF6FF00B833FB /* DYHLockViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58C36D511E0CF8BE00B833FB /* DYHCheckController.h */,
+				58C36D521E0CF8BE00B833FB /* DYHCheckController.m */,
+				58C36D531E0CF8BE00B833FB /* DYHInitPasswordController.h */,
+				58C36D541E0CF8BE00B833FB /* DYHInitPasswordController.m */,
 				58C36D361E0CF6FF00B833FB /* AppDelegate.h */,
 				58C36D371E0CF6FF00B833FB /* AppDelegate.m */,
 				58C36D391E0CF6FF00B833FB /* ViewController.h */,
 				58C36D3A1E0CF6FF00B833FB /* ViewController.m */,
-				58C36D3C1E0CF6FF00B833FB /* Main.storyboard */,
 				58C36D3F1E0CF70000B833FB /* Assets.xcassets */,
 				58C36D411E0CF70000B833FB /* LaunchScreen.storyboard */,
 				58C36D441E0CF70000B833FB /* Info.plist */,
@@ -77,6 +91,17 @@
 				58C36D341E0CF6FF00B833FB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58C36D4A1E0CF71E00B833FB /* DYHLockView */ = {
+			isa = PBXGroup;
+			children = (
+				58C36D4B1E0CF73200B833FB /* DYHLockView.h */,
+				58C36D4C1E0CF73200B833FB /* DYHLockView.m */,
+				58C36D4E1E0CF74700B833FB /* DYHLockNodeView.h */,
+				58C36D4F1E0CF74700B833FB /* DYHLockNodeView.m */,
+			);
+			path = DYHLockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,6 @@
 			files = (
 				58C36D431E0CF70000B833FB /* LaunchScreen.storyboard in Resources */,
 				58C36D401E0CF70000B833FB /* Assets.xcassets in Resources */,
-				58C36D3E1E0CF6FF00B833FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C36D3B1E0CF6FF00B833FB /* ViewController.m in Sources */,
+				58C36D561E0CF8BE00B833FB /* DYHInitPasswordController.m in Sources */,
+				58C36D4D1E0CF73200B833FB /* DYHLockView.m in Sources */,
+				58C36D551E0CF8BE00B833FB /* DYHCheckController.m in Sources */,
 				58C36D381E0CF6FF00B833FB /* AppDelegate.m in Sources */,
+				58C36D501E0CF74700B833FB /* DYHLockNodeView.m in Sources */,
 				58C36D351E0CF6FF00B833FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,14 +188,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58C36D3C1E0CF6FF00B833FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58C36D3D1E0CF6FF00B833FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58C36D411E0CF70000B833FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -219,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
