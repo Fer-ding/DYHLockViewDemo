@@ -61,6 +61,7 @@
         DYHLockNodeView *node = self.nodes[index];
         
         if (![self addSelectedNode:node]) {
+            //移动线到手势位置
             [self moveLineWithFingerPosition:touchPoint];
         }
         

@@ -16,6 +16,7 @@
 		58C36D501E0CF74700B833FB /* DYHLockNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D4F1E0CF74700B833FB /* DYHLockNodeView.m */; };
 		58C36D551E0CF8BE00B833FB /* DYHCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D521E0CF8BE00B833FB /* DYHCheckController.m */; };
 		58C36D561E0CF8BE00B833FB /* DYHInitPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C36D541E0CF8BE00B833FB /* DYHInitPasswordController.m */; };
+		58C56B261E0D2AA3009EFFCF /* 手势密码.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58C56B251E0D2AA3009EFFCF /* 手势密码.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		58C36D521E0CF8BE00B833FB /* DYHCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHCheckController.m; sourceTree = "<group>"; };
 		58C36D531E0CF8BE00B833FB /* DYHInitPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHInitPasswordController.h; sourceTree = "<group>"; };
 		58C36D541E0CF8BE00B833FB /* DYHInitPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHInitPasswordController.m; sourceTree = "<group>"; };
+		58C56B251E0D2AA3009EFFCF /* 手势密码.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "手势密码.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				58C36D371E0CF6FF00B833FB /* AppDelegate.m */,
 				58C36D391E0CF6FF00B833FB /* ViewController.h */,
 				58C36D3A1E0CF6FF00B833FB /* ViewController.m */,
+				58C56B251E0D2AA3009EFFCF /* 手势密码.gif */,
 				58C36D3F1E0CF70000B833FB /* Assets.xcassets */,
 				58C36D411E0CF70000B833FB /* LaunchScreen.storyboard */,
 				58C36D441E0CF70000B833FB /* Info.plist */,
@@ -163,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C56B261E0D2AA3009EFFCF /* 手势密码.gif in Resources */,
 				58C36D431E0CF70000B833FB /* LaunchScreen.storyboard in Resources */,
 				58C36D401E0CF70000B833FB /* Assets.xcassets in Resources */,
 			);
@@ -332,6 +336,7 @@
 				58C36D491E0CF70000B833FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
