@@ -72,6 +72,7 @@
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
+    //手势结束的时候，清除超出节点的线，起点在第一个节点中心，结束也是最后一个节点中心，超出部分不需要绘制
     [self removeLastFingerPosition];
     if([self.delegate respondsToSelector:@selector(lockView:didEndSwipeWithPassword:)]) {
         
